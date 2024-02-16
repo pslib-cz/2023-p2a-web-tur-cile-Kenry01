@@ -1,5 +1,5 @@
 :root {
-    --text-light: #000000;
+    --text-light: #ffffff;
 }
 html {
     font-family: 'Open Sans', sans-serif;
@@ -9,7 +9,7 @@ html {
     padding: 1em;
     margin-bottom: 1em;;
     background: url("../images/egypt.jpg") no-repeat center top/cover;
-}
+    }
 .categories {
 display: grid;
     max-width: 1200px;
@@ -19,7 +19,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
   
 }
-.categories:has(:hover) figure img:not(:hover)
+.categories:has(:hover) figure:not(:hover)
    {
     filter: blur(20px);
 }
@@ -28,8 +28,8 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 position: relative;
     color: inherit;
     border-radius: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-height: 80vh;
+
   
     
 }
@@ -51,7 +51,7 @@ position: relative;
 position: absolute;    
 }
 .categories__item:not(:hover) {
-    filter: blur(20px); 
+    filter: blur(10px); 
 
 }
 .categories__item:has(:hover) {
