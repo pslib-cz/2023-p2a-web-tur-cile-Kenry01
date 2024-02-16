@@ -19,7 +19,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
   
 }
-.categories:has(:hover) figure:not(:hover)
+.categories:has(:hover) figure img:not(:hover)
    {
     filter: blur(20px);
 }
@@ -36,7 +36,8 @@ position: relative;
 
 .categories__item:hover {
     box-shadow: 0 0 8px 2px var(--text-light);
-    transition: box-shadow 0.5s;
+    transition:  1s;
+    scale: 1.1;
     
 }
 .categories__item-image {
